@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build directory
+.next/
+
+# Vercel directory
+.vercel/
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Environment variables
+.env
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Compiled files
+*.pem
+*.key
+*.cert
+*.pub
+
+# Cache directories
+.cache/
