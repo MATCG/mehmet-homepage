@@ -29,3 +29,6 @@ Thumbs.db
 
 # Cache directories
 .cache/
+
+# protocols folder for documentation
+protocols/
