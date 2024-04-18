@@ -5,30 +5,16 @@ import {
   Heading,
   Button,
   Text,
-  IconButton,
-  Flex,
-  Highlight,
-  Switch,
   Link,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Image,
   SimpleGrid,
   GridItem,
   Stack
 } from "@chakra-ui/react";
 
-import { colorMode, useColorModeValue } from "@chakra-ui/react";
+import { useColorModeValue } from "@chakra-ui/react";
 
 import {
-  SearchIcon,
-  HamburgerIcon,
-  AddIcon,
-  ExternalLinkIcon,
-  RepeatIcon,
-  EditIcon,
   EmailIcon
 } from '@chakra-ui/icons';
 
@@ -38,18 +24,12 @@ import {
   IoLogoDiscord
 } from 'react-icons/io5';
 
-import { motion } from 'framer-motion';
-
 import NextLink from 'next/link';
 
-import Logo from '../components/ui/logo';
 import TopBar from '../components/ui/topbar';
 import Main from '../components/layouts/main';
-import ColorModeSwitcher from '../components/utils/colorModeSwitcher';
 import SectionTitle from '../components/ui/sectionTitle';
 import { BioSection, BioYear } from '../components/ui/biography';
-
-import theme from '../components/theme.js';
 
 const Home = () => {
   return (
@@ -131,6 +111,9 @@ const Home = () => {
             Blog
           </Link>
           &nbsp;zu verschiedenen Lebensbereichen.
+          Mehmet ist ein Selbstentwickler, der gerne über philosophische
+          Fragen nachdenkt und glaubt, dass es keine Grenzen für sein
+          Potenzial gibt.
         </Text>
 
         <SectionTitle>

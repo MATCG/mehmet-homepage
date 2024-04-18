@@ -2,7 +2,7 @@
 
 import { Heading, Box, useColorModeValue } from '@chakra-ui/react';
 
-const SectionTitle = ({ children, variant, ...rest }) => {
+const SectionTitle = ({ children, ...rest }) => {
   const color = useColorModeValue('black', 'white');
   const underlineColor = useColorModeValue('black', 'white');
 
