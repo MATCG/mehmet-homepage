@@ -28,7 +28,7 @@ import NextLink from 'next/link';
 
 import TopBar from '../components/ui/topbar';
 import Main from '../components/layouts/main';
-import SectionTitle from '../components/ui/sectionTitle';
+import SectionTitle from '../components/ui/sectiontitle';
 import { BioSection, BioYear } from '../components/ui/biography';
 
 const Home = () => {

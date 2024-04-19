@@ -7,7 +7,7 @@ import {
 import { useColorModeValue } from "@chakra-ui/react";
 
 import Logo from './logo';
-import ColorModeSwitcher from '../utils/colorModeSwitcher';
+import ColorModeSwitcher from '../utils/colormodeswitcher';
 
 const TopBar = () => {
   return (
