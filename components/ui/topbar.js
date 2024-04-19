@@ -1,13 +1,18 @@
 import {
   Box,
   Container, 
+  IconButton,
   Flex,
 } from "@chakra-ui/react";
 
 import { useColorModeValue } from "@chakra-ui/react";
 
-import Logo from './Logo';
-import ColorModeSwitcher from '../utils/ColorModeSwitcher';
+import {
+  SearchIcon,
+} from '@chakra-ui/icons';
+
+import Logo from './logo';
+import ColorModeSwitcher from '../utils/colorModeSwitcher';
 
 const TopBar = () => {
   return (
@@ -20,7 +25,7 @@ const TopBar = () => {
       left={0} // To position it at the left edge
       right={0} // To position it at the right edge
       zIndex={999} // To make sure it appears above other content
-      mb="2rem"
+      mb=""
     >
       <Container>
         <Flex justify="space-between" alignItems="center">
