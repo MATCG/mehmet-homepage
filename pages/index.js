@@ -111,9 +111,6 @@ const Home = () => {
             Blog
           </Link>
           &nbsp;zu verschiedenen Lebensbereichen.
-          Mehmet ist ein Selbstentwickler, der gerne über philosophische
-          Fragen nachdenkt und glaubt, dass es keine Grenzen für sein
-          Potenzial gibt.
         </Text>
 
         <SectionTitle>
