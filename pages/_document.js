@@ -7,6 +7,22 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          {/* Google Analytics */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-B4M0MQJQ4H"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-B4M0MQJQ4H');
+              `,
+            }}
+          />
           <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
           {/* Anta Static font regular 400 */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
