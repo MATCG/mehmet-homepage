@@ -175,7 +175,7 @@ const Home = () => {
             borderRadius="lg"
           >
             <Image
-              src="/images/Dele Zertifikat.pdf"
+              src="/images/Dele_Zertifikat.png"
               alt="CS50x Zertifikat"
             />
           </GridItem>
