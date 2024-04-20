@@ -2,17 +2,21 @@
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
+import Script from 'next/script';
+
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
           {/* Google Analytics */}
-          <script
+          <Script
+            id="googletagmanager"
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-B4M0MQJQ4H"
-          ></script>
-          <script
+          />
+          <Script
+            id="googleanalyticsconnection"
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
