@@ -34,12 +34,11 @@ import { BioSection, BioYear } from '../components/ui/biography';
 const Home = () => {
   return (
     <Main>
-    
+
       <Center>
         <TopBar />
       </Center>
 
-      {/* Introduction */}
       <Container mt="3rem">
         <Box
           bg={useColorModeValue('#FFFFFF', '#2D3748')}
@@ -149,7 +148,7 @@ const Home = () => {
           2024
         </BioYear>
 
-        <SimpleGrid mb="2rem">
+        <SimpleGrid mb="2rem" align="center" >
           <GridItem
             title="Harvard University: CS50's Introduction to Computer Science"
             borderColor={useColorModeValue('#CBD5E0', '#2D3748')}
@@ -161,24 +160,14 @@ const Home = () => {
               alt="CS50x Zertifikat"
             />
           </GridItem>
-        </SimpleGrid>
-
-        <BioYear>
-          2022
-        </BioYear>
-
-        <SimpleGrid mb="2rem">
-          <GridItem
-            title="Instituto Cervantes: Dele Diplom für Spanisch Niveau A1"
-            borderColor={useColorModeValue('#CBD5E0', '#2D3748')}
-            borderWidth="10px"
-            borderRadius="lg"
+          <Heading
+            as="h3"
+            size="md"
+            pt="2"
           >
-            <Image
-              src="/images/Dele_Zertifikat.png"
-              alt="CS50x Zertifikat"
-            />
-          </GridItem>
+            Harvard Univserity's: CS50X
+          </Heading>
+          <Text pt="2" > Introduction to the intellectual enterprises of Computer Science and the art of programming </Text>
         </SimpleGrid>
 
         <SectionTitle>
