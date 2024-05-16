@@ -165,7 +165,7 @@ const Home = () => {
             size="md"
             pt="2"
           >
-            Harvard Univserity's: CS50X
+            Harvard Univserity: CS50X
           </Heading>
           <Text pt="2" > Introduction to the intellectual enterprises of Computer Science and the art of programming </Text>
         </SimpleGrid>
