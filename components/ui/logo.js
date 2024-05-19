@@ -1,4 +1,11 @@
-import { useColorMode, Box } from '@chakra-ui/react';
+import {
+  useColorMode,
+  Box,
+  Link,
+} from "@chakra-ui/react"
+
+import { useRouter } from 'next/router';
+
 import styled from '@emotion/styled';
 
 const Logo = styled.h3`
@@ -44,8 +51,15 @@ const Logo = styled.h3`
 const MyLogo = () => {
   const { colorMode } = useColorMode();
 
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/');
+  };
+
   return(
-    <Box>
+    <Box onClick={handleClick} cursor="pointer">
+      <Link href="/" style={{ display: 'none' }}></Link>
       <Logo style={{ color: colorMode === 'dark' ? 'white' : 'black' }}>⏾Ak1f</Logo>
     </Box>
   );

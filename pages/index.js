@@ -26,8 +26,8 @@ import {
 
 import NextLink from 'next/link';
 
-import TopBar from '../components/ui/topbar';
 import Main from '../components/layouts/main';
+import TopBar from '../components/ui/topbar';
 import SectionTitle from '../components/ui/sectiontitle';
 import { BioSection, BioYear } from '../components/ui/biography';
 
@@ -167,7 +167,10 @@ const Home = () => {
           >
             Harvard Univserity: CS50X
           </Heading>
-          <Text pt="2" > Introduction to the intellectual enterprises of Computer Science and the art of programming </Text>
+          <Text pt="2" >
+            Introduction to the intellectual enterprises of
+            Computer Science and the art of programming
+          </Text>
         </SimpleGrid>
 
         <SectionTitle>

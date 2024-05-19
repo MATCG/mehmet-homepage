@@ -8,6 +8,7 @@ import { useColorModeValue } from "@chakra-ui/react";
 
 import Logo from './logo';
 import ColorModeSwitcher from '../utils/colormodeswitcher';
+import Navbar from '../utils/navbar';
 
 const TopBar = () => {
   return (
@@ -27,6 +28,7 @@ const TopBar = () => {
           <Logo ml={5} />
           <Flex>
             <ColorModeSwitcher />
+            <Navbar />
           </Flex>
         </Flex>
       </Container>
