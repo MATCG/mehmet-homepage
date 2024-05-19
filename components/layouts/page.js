@@ -1,4 +1,4 @@
-import { Box, Container } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 
 const Page = ({ children }) => {
