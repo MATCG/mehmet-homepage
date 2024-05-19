@@ -148,7 +148,7 @@ const Home = () => {
           2024
         </BioYear>
 
-        <SimpleGrid mb="2rem" align="center" >
+        <SimpleGrid mb="2rem" align="center" as={Link} href="/achievements/cs50">
           <GridItem
             title="Harvard University: CS50's Introduction to Computer Science"
             borderColor={useColorModeValue('#CBD5E0', '#2D3748')}
