@@ -23,7 +23,7 @@ import {
   IoLogoGithub,
   IoLogoDiscord
 } from 'react-icons/io5';
-
+     
 import NextLink from 'next/link';
 
 import Main from '../components/layouts/main';
@@ -219,7 +219,6 @@ const Home = () => {
             mcangul19@gmail.com
           </Button>
         </Stack>
-
       </Container>
     </Main>
   )

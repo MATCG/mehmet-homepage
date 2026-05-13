@@ -1,4 +1,4 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Container } from '@chakra-ui/react';
 import Head from 'next/head';
 
 const Page = ({ children }) => {
@@ -7,7 +7,9 @@ const Page = ({ children }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <Container alignItems="left" textAlign="left" align="left">
         {children}
+      </Container>
     </Box>
   );
 };
